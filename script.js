@@ -1,9 +1,8 @@
 const bodyE1 = document.querySelector("body");
 
-function infinity()
-{
-   const xPos = Math.random() * window.innerWidth;
-   const yPos = Math.random() * 999;
+bodyE1.addEventListener("mousemove",(event)=>{
+   const xPos = event.offsetX
+   const yPos = event.offsetY
    const spanE1 = document.createElement("span");
    spanE1.style.left =xPos + "px";
    spanE1.style.top = yPos + "px";
@@ -14,8 +13,4 @@ function infinity()
    setTimeout(()=>{
     spanE1.remove();
    },3000);
-};
-
-setInterval(() => {
-   infinity();
-}, 30);
+});
