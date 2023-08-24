@@ -10,7 +10,7 @@ body{
 }
 
 span{
-    background: url("https://cdn4.iconfinder.com/data/icons/twitter-29/512/166_Heart_Love_Like_Twitter-1024.png");
+    background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-256.png");
     width: 100px;
     height: 100px;
     position: absolute;
@@ -29,7 +29,7 @@ span{
     }
     100% {
         transform: translate(-50%,-5000%);
-        opacity : 1;
+        opacity : 0;
         filter: hue-rotate(720deg);
     }
 
